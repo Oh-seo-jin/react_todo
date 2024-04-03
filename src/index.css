@@ -1,19 +1,18 @@
 @font-face {
-  font-family: 'GmarketSansMedium';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-family: 'YangJin';
+  src: url('https://cdn.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 * {
-  font-family: 'GmarketSansMedium', sans-serif;
+  font-family: 'YangJin', sans-serif;
 }
 
 :root {
-  font-family: 'GmarketSansMedium', sans-serif;
+  font-family: 'YangJin', sans-serif;
   line-height: 1.5;
   font-weight: 500;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -33,10 +32,14 @@ a:hover {
 }
 body {
   margin: 0;
+  padding: 1em;
   display: flex;
   flex-direction: column;
   min-width: 320px;
   min-height: 100vh;
+}
+img{
+  max-width: 100%;
 }
 h1 {
   font-size: 3.2em;

@@ -17,15 +17,20 @@
 // import MyComponent_12 from "./12/MyComponent"
 // import MyComponent_13 from "./13/MyComponent"
 // import MyComponent_14 from "./14/MyComponent"
-import ToDoList from "./15/ToDoList"
+// import ToDoList from "./15/ToDoList"
+// import MyComponent_19_1 from "./19/MyComponent1"
+// import MyComponent_19_2 from "./19/MyComponent2";
+// import MyComponent_19_3 from "./19/MyComponent3";
+// import StopWatch from "./20/stopwatch";
+
 
 function App() {
   // 컴포넌트 단위 : 너무 자잘한 것도 좋지 않음
   return (
     <>
-    <ToDoList/>
+      <StopWatch />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
